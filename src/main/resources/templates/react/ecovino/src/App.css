@@ -1,0 +1,114 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    height: 100vh;
+}
+
+.App, #root {
+    min-height: 100vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    height: 100px;
+}
+
+.list {
+    display: flex;
+}
+.list li:first-of-type {
+    padding-right: 2rem;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.list li a:visited {
+    color: white;
+}
+/*
+footer
+*/
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding: 1rem;
+    color:white;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.facebook {
+    padding-right: 2rem;
+}
+
+.cardList  {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: darkgoldenrod;
+    padding: 1.5rem;
+    flex-shrink: 0;
+    margin: 3rem;
+}
+
+.cardHeader {
+    display: flex;
+}
