@@ -2,12 +2,12 @@ import React from 'react'
 
 const Products = ({name,img,description,precio}) => {
   return (
-    <div>
-        <div className='card'> 
-            <div className="name">
+    <div className='cardProduct'>
+        <div className='' > 
+            <div className="nameProduct">
                 <strong>{name}</strong>
             </div>
-            <img  src={img} className="cardLogo" alt='' />
+            <img  src={img} className="cardLogoProduct" alt='' />
         </div>
         <div>
             <div className="cardDescription">
@@ -16,7 +16,7 @@ const Products = ({name,img,description,precio}) => {
             <div>precio:{precio}</div>
         </div>
         <div>
-            <button>Añadir</button>
+            <button className='butonProduct'>Añadir</button>
         </div>
     </div>
   )

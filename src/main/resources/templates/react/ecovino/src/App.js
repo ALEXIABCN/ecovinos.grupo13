@@ -3,7 +3,7 @@ import bg from './assets/background.png'
 import {Header} from "./components/header/Header";
 import {Footer} from "./components/footer/Footer";
 import {Card} from "./components/card/Card";
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Products from './components/Products/Products';
 
 
@@ -74,19 +74,25 @@ function App() {
                         productos={productos}
                     />
                 })}
-                {
-                  target.map(({nombre,descripcion,img,precio}) =>(
-                    <Products
-                      nombre={nombre}
-                      description={descripcion}
-                      precio={precio}
-                      img={img}
-                    />
-                  ))
-                }
             </div>
+            <div className='containerProducts'>
+
+              {
+                target.map(({nombre,descripcion,img,precio}) =>(
+                  <Products
+                    name={nombre}
+                    description={descripcion}
+                    precio={precio}
+                    img={img}
+                  />
+                ))
+              }
+
+
+            </div>
+            <Footer />
         </main>
-      <Footer />
+      
     </div>
   );
 }
