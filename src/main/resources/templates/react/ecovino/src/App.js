@@ -3,7 +3,7 @@ import bg from './assets/background.png'
 import {Header} from "./components/header/Header";
 import {Footer} from "./components/footer/Footer";
 import {Card} from "./components/card/Card";
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Products from './components/Products/Products';
 
 
@@ -12,6 +12,9 @@ const bodega1 =[
   {nombre:'Real Rubio Tinto',descripcion:'color rojo cereza picota, con atractivos azules y violeta. Aromas frutales combinados con las moras y frutos silvestres',img:'https://realrubio.es/sites/default/files/styles/vino-full/public/vinos/joven_ecologico_.png?itok=JO2qlzMb',precio:18},
   {nombre:'Real Rubio Crianza',descripcion:'Vino elaborado con uvas procedentes de parcelas de nuestra propiedad de cultivo ecológico y practicas  respetuosas con el medio ambiente',img:'https://realrubio.es/sites/default/files/styles/vino-full/public/vinos/crianza_ecologico_0.png?itok=tAsaVg9A',precio:15}
 ]
+
+
+
 
 const bodegas = [
     {name: 'Viñedos RealRubio', logo: 'https://realrubio.es/sites/default/files/visitanos-9_0.jpg', ddo: 'La Rioja', img: '', description: 'Nuestros abuelos nos transmitieron su apego a la tierra y el saber hacer', link: '',productos:bodega1},
@@ -51,19 +54,25 @@ function App() {
                         productos={productos}
                     />
                 })}
-                {
-                  target.map(({nombre,descripcion,img,precio}) =>(
-                    <Products
-                      nombre={nombre}
-                      description={descripcion}
-                      precio={precio}
-                      img={img}
-                    />
-                  ))
-                }
             </div>
+            <div className='containerProducts'>
+
+              {
+                target.map(({nombre,descripcion,img,precio}) =>(
+                  <Products
+                    name={nombre}
+                    description={descripcion}
+                    precio={precio}
+                    img={img}
+                  />
+                ))
+              }
+
+
+            </div>
+            <Footer />
         </main>
-      <Footer />
+      
     </div>
   );
 }
