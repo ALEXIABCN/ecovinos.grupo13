@@ -1,28 +1,32 @@
 
-const Card = ({name, logo, ddo, img, description, link = '', })=> {
+const Card = ({name, logo, ddo, img, description, link = '',setTarget,productos })=> {
+
+    const action =()=>{
+        setTarget(e=>[...e,...productos])
+    }
+
     return <div className='card'>
         <div className="cardHeader">
             <img  src={logo} className="cardLogo" alt='' />
             <div className="cardHeaderData">
                 <div className="name">
-                    {name}
+                    <strong>{name}</strong>
                 </div>
                 <div className="ddo">
-                    {ddo}
+                    DO: {ddo}
                 </div>
             </div>
         </div>
         <div className="cardBody">
             <div className="cardImage">
-                <img src={img} alt=""/>
             </div>
             <div className="cardDescription">
                 {description}
             </div>
         </div>
         <div className="cardFooter">
-            <button>
-                Products
+            <button onClick={action}>
+                Vinos
             </button>
         </div>
     </div>

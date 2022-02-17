@@ -103,12 +103,44 @@ footer
 .card {
     display: flex;
     flex-direction: column;
-    background: darkgoldenrod;
+    background:hsl(36, 78%, 52%,.8) ;
     padding: 1.5rem;
     flex-shrink: 0;
     margin: 3rem;
+    width:25%;
+    min-width: 300px;
+    border-radius: 8px;
+
 }
 
 .cardHeader {
     display: flex;
+    flex-direction: column-reverse;
+    gap:4px;
+}
+
+.cardHeader p{
+    width: 80%;
+}
+
+.cardLogo{
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 100%,.5)
+}
+
+.cardDescription{
+    margin-top: 9px;
+}
+
+.cardFooter{
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cardFooter button{
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
 }
