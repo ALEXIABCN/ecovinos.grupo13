@@ -6,10 +6,10 @@ const Header = ()=> {
         <nav className='nav'>
             <ul className='list'>
                 <li>
-                    <a href="">Inicio</a>
+                    <a href="#">Carrito de compras</a>
                 </li>
                 <li>
-                    <a href="">Bodegas</a>
+                    <a href="#">Bodegas</a>
                 </li>
                 <li>
                     <div>

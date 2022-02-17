@@ -2,7 +2,7 @@
 const Card = ({name, logo, ddo, img, description, link = '',setTarget,productos })=> {
 
     const action =()=>{
-        setTarget(e=>[...e,...productos])
+        setTarget([...productos])
     }
 
     return <div className='card'>

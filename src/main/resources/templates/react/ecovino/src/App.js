@@ -10,7 +10,7 @@ import Products from './components/Products/Products';
 const bodega1 =[
   {nombre:'Real Rubio Rosado',descripcion:'El mosto rosado es sangrado en el momento oportuno para conseguir tanto el color como los aromas deseados',img:'https://realrubio.es/sites/default/files/styles/vino-teaser/public/vinos/real_rubio_rose_1_0.png?itok=34qOqiOB',precio:23},
   {nombre:'Real Rubio Tinto',descripcion:'color rojo cereza picota, con atractivos azules y violeta. Aromas frutales combinados con las moras y frutos silvestres',img:'https://realrubio.es/sites/default/files/styles/vino-full/public/vinos/joven_ecologico_.png?itok=JO2qlzMb',precio:18},
-  {nombre:'Real Rubio Crianza',descripcion:'Vino elaborado con uvas procedentes de parcelas de nuestra propiedad de cultivo ecológico y practicas  respetuosas con el medio ambiente',img:'https://realrubio.es/sites/default/files/styles/vino-full/public/vinos/crianza_ecologico_0.png?itok=tAsaVg9A',precio:15}
+  {nombre:'Real Rubio Crianza',descripcion:'Vino elaborado con uvas procedentes de parcelas de nuestra propiedad de cultivo ecológico ',img:'https://realrubio.es/sites/default/files/styles/vino-full/public/vinos/crianza_ecologico_0.png?itok=tAsaVg9A',precio:15}
 ]
 
 const bodega2 =[
@@ -21,7 +21,7 @@ const bodega2 =[
 const bodega3 =[
   {nombre:'Cava Brut Nature',descripcion:'Vino elaborado con uvas de cultivo biodinámico y con mínima intervención ',img:'https://paresbalta.com/wp-content/uploads/2020/07/cava-brut-nature-pares-balta-1280x1920.jpg',precio:10},
   {nombre:'Rosa Cusiné',descripcion:'Se cosecha a mano y en pequeñas cajas para evitar la oxidación del mosto. Llegada a bodega y prensado suave',img:'https://paresbalta.com/wp-content/uploads/2017/11/cava-rosa-cusine-pares-balta.jpg',precio:21},
-  {nombre:'Cuvée de Carol',descripcion:'',img:'',precio:21}
+  {nombre:'Cuvée de Carol',descripcion:' exuda aromas frescos de manzanas verdes, ralladura de limón y madreselva',img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ngwVF2YOitDQF43a1te9WI1_P5psMaRT0A&usqp=CAU',precio:14}
 ]
 
 const bodega4 = [
@@ -38,11 +38,10 @@ const bodega5 =[
 ]
 const bodegas = [
     {name: 'Viñedos RealRubio', logo: 'https://realrubio.es/sites/default/files/visitanos-9_0.jpg', ddo: 'La Rioja', img: '', description: 'Nuestros abuelos nos transmitieron su apego a la tierra y el saber hacer', link: '',productos:bodega1},
-    {name: 'Celler Burgos Porta', logo: 'https://enoguia.cat/wp-content/uploads/2017/06/burgos-porta-priorat-enoguia-08.jpg', ddo: 'Priorat', img: '', description: 'Som un celler del la DOQ Priorat dedicat a la viticultura des del segle XIX. Com a celler Burgos Porta hem produït el nostre primer vi ecològic al 2003, elaborat amb procés tradicional.\n', link: '',productos:bodega2},
-    {name: 'Pares Baltá', logo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlaOmDqvm3MCQ9_p1Qd5ZAZtcDmCoRTFW01w&usqp=CAU', ddo: 'Penedes', img: '', description: 'om un celler familiar amb una llarga tradició vitivinícola. \n' +
-            'El nostre objectiu és tenir cura de les vinyes de la millor manera possible per tal d’elaborar vins i caves ecològics plens d’expressió i d’essència de la nostra terra; una terra que durant segles s’ha dedicat al cultiu de la vinya', link: '', productos:bodega3},
-    {name: 'VINOS Bodegas las danzas (Cangas)', logo: 'https://bodegalasdanzas.es/wp-content/uploads/2021/09/vinos_2021.png', ddo: 'Cangas', img: '', description: 'Desde 2009, Vino de Cangas ostenta el reconocimiento de vino con Denominación de Origen Protegida, gracias a su condición de Vino de Calidad Producido en Regiones Determinadas.', link:'', productos:bodega4},
-    {name: 'Bodega Obergo', logo: 'https://rutadelvinosomontano.com/wp-content/uploads/2020/04/establec_bodegas_obergo_02.jpg', ddo: 'Somontano', img: '', description: 'Las bodegas de Somontano son reconocidas internacionalmente por la calidad de sus vinos, construcciones atractivas y tradiciones. Por consiguiente, son uno de los principales destinos turísticos entre los amantes del vino español que desean conocer el proceso de elaboración de esta bebida.', link:'', productos:bodega5},
+    {name: 'Celler Burgos Porta', logo: 'https://enoguia.cat/wp-content/uploads/2017/06/burgos-porta-priorat-enoguia-08.jpg', ddo: 'Priorat', img: '', description: 'es una empresa familiar con una larga tradición vitivinícola que data del siglo XIX.  El vino se produce bajo el control del Consell Català  ', link: '',productos:bodega2},
+    {name: 'Pares Baltá', logo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlaOmDqvm3MCQ9_p1Qd5ZAZtcDmCoRTFW01w&usqp=CAU', ddo: 'Penedes', img: '', description: 'El objetivo es cuidar los viñedos de la mejor forma posible para elaborar vinos y cavas ecológicos', link: '', productos:bodega3},
+    {name: 'VINOS Bodegas las danzas (Cangas)', logo: 'https://i0.wp.com/www.lamochilademama.com/wp-content/uploads/2021/07/bodega-moratalla-ruta-vino-la-manchuela.jpg?w=1100&ssl=1', ddo: 'Cangas', img: '', description: 'Desde 2009, Vino de Cangas ostenta el reconocimiento de vino con Denominación de Origen Protegida.', link:'', productos:bodega4},
+    {name: 'Bodega Somontano', logo: 'https://www.obergo.es/img/image/logo-obergo.png', ddo: 'Cantabría', img: 'https://rutadelvinosomontano.com/wp-content/uploads/2020/04/establec_bodegas_obergo_02.jpg', description: ' son reconocidas internacionalmente por la calidad de sus vinos, construcciones atractivas y tradiciones. .', link:'', productos:bodega5},
 ]
 
 
@@ -51,10 +50,6 @@ function App() {
 
   const [target, setTarget] = useState([])
   console.log(target)
-
-   
-   
-
 
   return (
     <div className="App">
@@ -99,3 +94,4 @@ function App() {
 }
 
 export default App;
+
