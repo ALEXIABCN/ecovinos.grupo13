@@ -18,7 +18,7 @@ const bodega1 =[
 
 const bodegas = [
     {name: 'Viñedos RealRubio', logo: 'https://realrubio.es/sites/default/files/visitanos-9_0.jpg', ddo: 'La Rioja', img: '', description: 'Nuestros abuelos nos transmitieron su apego a la tierra y el saber hacer', link: '',productos:bodega1},
-    {name: '', logo: '', ddo: 'ddo 2', img: '', description: 'description', link: ''},
+    {name: 'Celler Burgos Porta', logo: 'https://enoguia.cat/wp-content/uploads/2017/06/burgos-porta-priorat-enoguia-08.jpg', ddo: 'DO Priorat', img: '', description: 'Som un celler del la DOQ Priorat dedicat a la viticultura des del segle XIX. Com a celler Burgos Porta hem produït el nostre primer vi ecològic al 2003, elaborat amb procés tradicional.\n', link: ''},
     {name: 'bodega 3', logo: '', ddo: 'ddo 3', img: '', description: 'description', link: ''},
     {name: 'bodega 4', logo: '', ddo: 'ddo 4', img: '', description: 'description', link: ''},
     {name: 'bodega 5', logo: '', ddo: 'ddo 5', img: '', description: 'description', link: ''},
