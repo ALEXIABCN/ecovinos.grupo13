@@ -41,7 +41,7 @@ const bodegas = [
     {name: 'Celler Burgos Porta', logo: 'https://enoguia.cat/wp-content/uploads/2017/06/burgos-porta-priorat-enoguia-08.jpg', ddo: 'Priorat', img: '', description: 'es una empresa familiar con una larga tradición vitivinícola que data del siglo XIX.  El vino se produce bajo el control del Consell Català  ', link: '',productos:bodega2},
     {name: 'Pares Baltá', logo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlaOmDqvm3MCQ9_p1Qd5ZAZtcDmCoRTFW01w&usqp=CAU', ddo: 'Penedes', img: '', description: 'El objetivo es cuidar los viñedos de la mejor forma posible para elaborar vinos y cavas ecológicos', link: '', productos:bodega3},
     {name: 'VINOS Bodegas las danzas (Cangas)', logo: 'https://i0.wp.com/www.lamochilademama.com/wp-content/uploads/2021/07/bodega-moratalla-ruta-vino-la-manchuela.jpg?w=1100&ssl=1', ddo: 'Cangas', img: '', description: 'Desde 2009, Vino de Cangas ostenta el reconocimiento de vino con Denominación de Origen Protegida.', link:'', productos:bodega4},
-    {name: 'Bodega Somontano', logo: 'https://www.obergo.es/img/image/logo-obergo.png', ddo: 'Cantabría', img: 'https://rutadelvinosomontano.com/wp-content/uploads/2020/04/establec_bodegas_obergo_02.jpg', description: ' son reconocidas internacionalmente por la calidad de sus vinos, construcciones atractivas y tradiciones. .', link:'', productos:bodega5},
+    {name: 'Bodega Obergo', logo: 'https://rutadelvinosomontano.com/wp-content/uploads/2020/04/establec_bodegas_obergo_02.jpg', ddo: 'Somontano', img: 'https://rutadelvinosomontano.com/wp-content/uploads/2020/04/establec_bodegas_obergo_02.jpg', description: ' son reconocidas internacionalmente por la calidad de sus vinos, construcciones atractivas y tradiciones. .', link:'', productos:bodega5},
 ]
 
 
