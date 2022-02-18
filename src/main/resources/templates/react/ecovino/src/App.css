@@ -59,8 +59,12 @@ main {
 .list {
     display: flex;
 }
-.list li:first-of-type {
+.list li{
     padding-right: 2rem;
+}
+
+.list li:hover{
+    color:blueviolet
 }
 
 .list li a {
